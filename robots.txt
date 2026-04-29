@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colorone-cos.com/sitemap.xml
