@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="컬러원코스메틱 문의하기 - 제품 샘플, OEM/ODM 상담, 가격 문의는 여기서.">
+  <title>문의하기 | 컬러원코스메틱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-main">
+          <span class="nav__logo-color">Color</span><span class="nav__logo-one">One</span>
+        </div>
+        <div class="nav__logo-sub">Cosmetics</div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </label>
+      <ul class="nav__menu">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="about.html">회사소개</a></li>
+        <li><a href="products.html">제품안내</a></li>
+        <li><a href="contact.html" class="nav__cta active">문의하기</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label">Contact Us</div>
+      <h1 class="page-hero__title">문의하기</h1>
+      <p class="page-hero__desc">제품 샘플, 가격, OEM/ODM 상담 — 무엇이든 빠르게 답변드립니다</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- 연락처 정보 -->
+        <div class="contact-info">
+          <h2 class="contact-info__title">연락처 안내</h2>
+          <p class="contact-info__desc">
+            궁금하신 사항은 전화, 이메일, 또는 아래 문의 양식으로 연락주세요.
+            영업일 기준 1일 이내 답변드립니다.
+          </p>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">📍</div>
+            <div>
+              <div class="contact-info-item__label">주소</div>
+              <div class="contact-info-item__value">서울특별시 강남구 논현로 123</div>
+              <div class="contact-info-item__sub">컬러원빌딩 3층 (논현역 3번 출구 도보 5분)</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">📞</div>
+            <div>
+              <div class="contact-info-item__label">전화</div>
+              <div class="contact-info-item__value">02-555-1234</div>
+              <div class="contact-info-item__sub">팩스 02-555-1235</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">✉️</div>
+            <div>
+              <div class="contact-info-item__label">이메일</div>
+              <div class="contact-info-item__value">info@colorone-cos.com</div>
+              <div class="contact-info-item__sub">샘플 문의: sample@colorone-cos.com</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">💬</div>
+            <div>
+              <div class="contact-info-item__label">카카오톡</div>
+              <div class="contact-info-item__value">@컬러원코스메틱</div>
+              <div class="contact-info-item__sub">카카오 채널에서 빠른 상담 가능</div>
+            </div>
+          </div>
+
+          <div class="contact-hours">
+            <div class="contact-hours__title">운영 시간</div>
+            <div class="contact-hours__row">
+              <span class="contact-hours__day">평일</span>
+              <span>09:00 – 18:00</span>
+            </div>
+            <div class="contact-hours__row">
+              <span class="contact-hours__day">점심시간</span>
+              <span>12:00 – 13:00</span>
+            </div>
+            <div class="contact-hours__row">
+              <span class="contact-hours__day">토요일</span>
+              <span>09:00 – 13:00 (격주)</span>
+            </div>
+            <div class="contact-hours__row">
+              <span class="contact-hours__day">일요일 / 공휴일</span>
+              <span>휴무</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 문의 폼 -->
+        <div class="contact-form">
+          <form action="#" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">이름 <span>*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="홍길동" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="company">회사명</label>
+                <input type="text" id="company" name="company" class="form-input" placeholder="(주)브랜드명">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="phone">연락처 <span>*</span></label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="010-0000-0000" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">이메일 <span>*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="example@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="category">문의 유형 <span>*</span></label>
+              <select id="category" name="category" class="form-select" required>
+                <option value="" disabled selected>문의 유형을 선택하세요</option>
+                <option value="sample">샘플 요청</option>
+                <option value="price">가격 문의</option>
+                <option value="oem">OEM / ODM 상담</option>
+                <option value="product">제품 정보 문의</option>
+                <option value="other">기타</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="product">관심 제품</label>
+              <input type="text" id="product" name="product" class="form-input" placeholder="예) 30ml 에어리스 펌프 용기, 유리 세럼 보틀 등">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="quantity">예상 발주 수량</label>
+              <select id="quantity" name="quantity" class="form-select">
+                <option value="" disabled selected>수량 범위 선택 (선택사항)</option>
+                <option value="500">500개 이하</option>
+                <option value="1000">500 ~ 1,000개</option>
+                <option value="5000">1,000 ~ 5,000개</option>
+                <option value="10000">5,000 ~ 10,000개</option>
+                <option value="10000+">10,000개 이상</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">문의 내용 <span>*</span></label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="문의하실 내용을 자유롭게 작성해주세요.&#10;(제품 종류, 수량, 납기일, 특수 요청사항 등)" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">문의 보내기</button>
+            <p class="form-note">* 표시 항목은 필수 입력사항입니다. 개인정보는 문의 처리 목적으로만 사용됩니다.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo-main">
+            <span class="footer__logo-color">Color</span>One Cosmetics
+          </div>
+          <p class="footer__desc">
+            화장품 용기 및 부자재 전문 기업 컬러원코스메틱입니다.<br>
+            브랜드의 가치를 높이는 최적의 패키징 솔루션을 제공합니다.
+          </p>
+          <div class="footer__info-item">
+            <span class="footer__info-label">주소</span>
+            <span>서울특별시 강남구 논현로 123 컬러원빌딩 3층</span>
+          </div>
+          <div class="footer__info-item">
+            <span class="footer__info-label">TEL</span>
+            <span>02-555-1234</span>
+          </div>
+          <div class="footer__info-item">
+            <span class="footer__info-label">EMAIL</span>
+            <span>info@colorone-cos.com</span>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-title">메뉴</div>
+          <ul class="footer__links">
+            <li><a href="index.html">홈</a></li>
+            <li><a href="about.html">회사소개</a></li>
+            <li><a href="products.html">제품안내</a></li>
+            <li><a href="contact.html">문의하기</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">제품 카테고리</div>
+          <ul class="footer__links">
+            <li><a href="products.html">유리 용기</a></li>
+            <li><a href="products.html">플라스틱 용기</a></li>
+            <li><a href="products.html">에어리스 용기</a></li>
+            <li><a href="products.html">펌프 & 디스펜서</a></li>
+            <li><a href="products.html">캡 & 클로저</a></li>
+            <li><a href="products.html">튜브 & 스포이드</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">© 2024 컬러원코스메틱 주식회사. All rights reserved.</span>
+        <span class="footer__tagline">대표이사 박준혁 | 사업자등록번호 123-45-67890</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
