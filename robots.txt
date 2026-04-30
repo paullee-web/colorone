@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /_backup/
 
-Sitemap: https://colorone.co.kr/sitemap.xml
+Sitemap: https://www.colorone.kr/sitemap.xml
