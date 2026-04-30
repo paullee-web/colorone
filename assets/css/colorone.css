@@ -485,15 +485,22 @@ ul { list-style: none; padding: 0; margin: 0; }
     gap: 0;
     background: #fff;
     border-bottom: 1px solid var(--border);
-    padding: 8px 0;
+    padding: 4px 0;
     box-shadow: var(--shadow-md);
   }
   .nav-links.is-open { display: flex; }
+  .nav-links li { width: 100%; }
   .nav-links a {
-    padding: 14px 24px;
+    display: block;
+    width: 100%;
+    padding: 20px 24px;
+    font-size: 16px;
+    line-height: 1.4;
+    min-height: 56px;
     border-bottom: 1px solid var(--border);
   }
-  .nav-links a:last-child { border-bottom: 0; }
+  .nav-links li:last-child a { border-bottom: 0; }
+  .nav-links a:active { background: var(--bg-light); }
 
   .hero { min-height: 560px; }
   .hero-inner { padding: 96px 20px; gap: 18px; }
